@@ -1,6 +1,4 @@
-# MultiPropReg: Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond
-
-**MultiPropReg** is a general purpose library for learning-based tools for alignment/registration, and more generally modelling with deformations.
+This is the official code for the paper "Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond"
 
 
 # Instructions
