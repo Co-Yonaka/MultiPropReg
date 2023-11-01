@@ -1,3 +1,5 @@
+# MultPropReg_new
+
 This is the official code for the paper "Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond"
 
 
@@ -40,6 +42,4 @@ python MultiPropReg/scripts/test.py  \
 ```
 
 If you have a dataset with segmented images, you have the option to manually specify the `atlas_seg` parameter. Additionally, we offer a selection of pre-trained models for a rapid assessment of registration outcomes.
-Detailed usage instructions can be found in scripts/README.md.
-
-
+Detailed usage instructions can be found in MultiPropReg/scripts/README.md.
