@@ -5,11 +5,32 @@ This is the official code for the paper "Learning Deformable Image Registration 
 
 # Instructions
 
-To use the MultiPropReg library, either clone this repository and install the requirements listed in `setup.py` or install directly with pip.
+There are three methods to utilize the MultiPropReg library:
+
+1. Clone this repository and install the requirements listed in 'setup.py'.
+2. Install directly using pip.
+3. Download the Docker image.
+
+When installing via pip, please use this command to install MultiPropReg. 
 
 ```
-pip install MultiPropReg
+pip install MultiPropReg==0.1.1
 ```
+The format of the instruction you should enter in the terminal is as follows:
+
+You should enter the following command in your terminal:
+
+```
+python -m MultiPropReg.scripts.test \
+        --model /path/to/pretrained_model_file  \
+        --atlas /path/to/atlas_file  \
+        --image_path /path/to/test_image_path_file  \
+        --result_save /path/to/result_save_file \
+        --gpu 0 \
+        --hyper_parameters 10,15,3.2,0.8
+```
+
+Each of the above parameters can be customized.
 
 ## Pre-trained models
 
