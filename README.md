@@ -1,4 +1,4 @@
-# MultPropReg_new
+# MultiPropReg_new
 
 This is the official code for the paper "Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond"
 
@@ -18,7 +18,6 @@ pip install MultiPropReg==0.1.1
 ```
 The format of the instruction you should enter in the terminal is as follows:
 
-You should enter the following command in your terminal:
 
 ```
 python -m MultiPropReg.scripts.test \
@@ -31,6 +30,22 @@ python -m MultiPropReg.scripts.test \
 ```
 
 Each of the above parameters can be customized.
+
+When you want to install the docker image, enter the following command in the terminal:
+
+```
+docker pull meiyunan/multipropreg:v2
+```
+
+Before using the pulled Docker image, you may need to activate the PyTorch environment first using the following command:
+
+```
+bash
+source activate pytorch
+```
+
+The instruction format is essentially the same as that provided in scripts/README.md.
+
 
 ## Pre-trained models
 

@@ -649,7 +649,7 @@ class Network_Search_Estimator(nn.Module):
 
         num_ops = len(PRIMITIVES)
         k_concat = 6
-        self.alphas = Variable(1e-3 * torch.randn(k_concat, num_ops).cuda(), requires_grad=True)#Variable 没看懂
+        self.alphas = Variable(1e-3 * torch.randn(k_concat, num_ops).cuda(), requires_grad=True)
         self._arch_parameters = [
             self.alphas,
         ]
