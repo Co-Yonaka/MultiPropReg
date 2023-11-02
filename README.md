@@ -49,7 +49,7 @@ The instruction format is essentially the same as that provided in scripts/READM
 
 ## Pre-trained models
 
-See list of pre-trained models available [here](models/pretrained_model_epoch400.ckpt).
+Our pre-trained models are available here: https://pan.baidu.com/s/1BoCwtYANGkbRwDt8IBFHcQ?pwd=dimu .
 
 ## Training
 
