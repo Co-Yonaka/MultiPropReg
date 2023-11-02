@@ -1,4 +1,4 @@
-# MultiPropReg_new
+# MultiPropReg
 
 This is the official code for the paper "Learning Deformable Image Registration from Optimization: Perspective, Modules, Bilevel Training and Beyond"
 
